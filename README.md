@@ -1,6 +1,6 @@
 CICADA PROTOCOL
 
-https://cicada-protocol-aericax.netlify.app/
+https://cicada-protocol.netlify.app/
 
 About
 

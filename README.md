@@ -1,8 +1,10 @@
 CICADA PROTOCOL
+
 https://cicada-protocol-aericax.netlify.app/
+
 About
 
-Cicada Protocol is a conceptual cybersecurity architecture designed for state-level institutional environments where failure is not an option — election bodies, government ministries, central banks, national health systems, and critical infrastructure operators.
+Cicada Protocol is a conceptual cybersecurity architecture designed for state-level institutional environments where failure is not an option election bodies, government ministries, central banks, national health systems, and critical infrastructure operators.
 
 Built entirely around a single design principle: assume the attacker is already inside.
 
@@ -13,7 +15,7 @@ This repository contains the complete system architecture documentation, an inte
 The Seven Layers
 
 Layer 1 — Drift Engine
-Continuous behavioral identity monitoring. Every user builds a behavioral fingerprint over time — login patterns, typing cadence, file access sequences, navigation habits, geographic consistency. Authentication proves you have the right key. The Drift Engine proves you are the right person. Any session that passes authentication but deviates from the established behavioral fingerprint is silently sandboxed the attacker continues operating inside a monitored container where no action causes real damage, while analysts are alerted in the background.
+Continuous behavioral identity monitoring. Every user builds a behavioral fingerprint over time login patterns, typing cadence, file access sequences, navigation habits, geographic consistency. Authentication proves you have the right key. The Drift Engine proves you are the right person. Any session that passes authentication but deviates from the established behavioral fingerprint is silently sandboxed the attacker continues operating inside a monitored container where no action causes real damage, while analysts are alerted in the background.
 
 Layer 2 — Decay Protocol
 Time-based privilege degradation. No access right inside Cicada Protocol lasts forever. Emergency access expires in 2 hours. Administrative access expires in 72 hours. Elevated access expires in 7 days. Standard access expires in 30 days. Credentials that are stolen but not immediately used provide a progressively narrowing window of opportunity regardless of whether the theft has been detected. Time catches attackers that detection misses.
@@ -31,7 +33,7 @@ Layer 6 — Forensic Chain
 Tamper-proof audit logging. Every action within the institution is recorded in an append-only, cryptographically chained log where any modification of any historical entry invalidates the hash chain from that point forward. Logs are continuously replicated to geographically distributed storage nodes isolated from the operational environment. A parallel Dual-Path Forensics system uses two independently developed engines to reconstruct event timelines if their outputs diverge, the divergence itself is flagged as evidence of compromise.
 
 Layer 7 — Obsidian Protocol
-Last resort survival mechanism. Activates only when all seven layers are simultaneously and conclusively compromised. Executes four phases in parallel: all sensitive data is fragmented and distributed across geographically separated nodes requiring physical key holders to reconstruct. The entire infrastructure undergoes full emergency mutation simultaneously, destroying every map, backdoor, and persistent access the attacker established. An air-gapped sovereign backup environment comes online at a separate physical facility. The complete forensic chain is broadcast irrevocably to three independent receivers — a national cybersecurity authority, an independent legal body, and an encrypted dead-drop before the attacker has any opportunity to prevent it. The attacker leaves with nothing. The institution never goes offline.
+Last resort survival mechanism. Activates only when all seven layers are simultaneously and conclusively compromised. Executes four phases in parallel: all sensitive data is fragmented and distributed across geographically separated nodes requiring physical key holders to reconstruct. The entire infrastructure undergoes full emergency mutation simultaneously, destroying every map, backdoor, and persistent access the attacker established. An air-gapped sovereign backup environment comes online at a separate physical facility. The complete forensic chain is broadcast irrevocably to three independent receivers a national cybersecurity authority, an independent legal body, and an encrypted dead-drop before the attacker has any opportunity to prevent it. The attacker leaves with nothing. The institution never goes offline.
 
 Design Philosophy
 

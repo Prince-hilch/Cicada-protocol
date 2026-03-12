@@ -1,0 +1,5 @@
+{
+  "name": "Remix: CICADA PROTOCOL Simulation",
+  "description": "A cybersecurity simulation demonstrating the 7-layer CICADA PROTOCOL defense system against external attacks.",
+  "requestFramePermissions": []
+}
